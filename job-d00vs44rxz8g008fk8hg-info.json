@@ -1,0 +1,40 @@
+{
+  "id": "d00vs44rxz8g008fk8hg",
+  "hub": "ibm-q",
+  "group": "open",
+  "project": "main",
+  "backend": "ibm_kyiv",
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "params": {
+    "pubs": [
+      [
+        "OPENQASM 2.0; include \"qelib1.inc\"; gate rzx(param0) q0,q1 { h q1; cx q0,q1; rz(param0) q1; cx q0,q1; h q1; } gate ecr q0,q1 { rzx(pi/4) q0,q1; x q0; rzx(-pi/4) q0,q1; } qreg q[127]; creg c[5]; sx q[41]; rz(pi/2) q[41]; x q[42]; rz(pi/2) q[42]; x q[53]; rz(pi/2) q[53]; rz(pi/2) q[59]; sx q[59]; sx q[60]; rz(pi/2) q[60]; ecr q[59],q[60]; x q[59]; rz(-pi/2) q[59]; sx q[60]; rz(-pi/2) q[60]; ecr q[53],q[60]; rz(pi/2) q[53]; sx q[53]; ecr q[53],q[41]; sx q[41]; rz(-pi/2) q[41]; ecr q[42],q[41]; sx q[41]; rz(2.356796326794896) q[41]; rz(pi/2) q[42]; sx q[42]; ecr q[42],q[41]; sx q[41]; rz(-pi/2) q[41]; rz(-pi/2) q[42]; sx q[42]; ecr q[42],q[41]; rz(-pi) q[41]; sx q[41]; rz(pi/2) q[41]; rz(pi/2) q[42]; sx q[42]; ecr q[42],q[41]; sx q[41]; rz(-pi/2) q[41]; rz(-pi/2) q[53]; sx q[53]; rz(2.827592653589793) q[53]; ecr q[53],q[41]; rz(-pi) q[41]; sx q[41]; rz(pi/2) q[41]; rz(pi/2) q[53]; sx q[53]; ecr q[53],q[41]; sx q[41]; rz(-pi/2) q[41]; rz(-pi/2) q[53]; sx q[53]; ecr q[53],q[41]; rz(pi/2) q[41]; sx q[41]; rz(pi/2) q[41]; rz(pi/2) q[53]; sx q[53]; rz(-pi/2) q[60]; sx q[60]; rz(-3.0943889803846893) q[60]; sx q[60]; ecr q[59],q[60]; rz(-pi/2) q[59]; sx q[59]; sx q[60]; rz(-pi/2) q[60]; ecr q[59],q[60]; rz(pi/2) q[59]; sx q[59]; rz(-pi) q[60]; sx q[60]; rz(pi/2) q[60]; ecr q[59],q[60]; sx q[60]; rz(pi/2) q[60]; ecr q[53],q[60]; x q[53]; rz(pi/2) q[60]; sx q[60]; rz(pi/2) q[60]; measure q[60] -> c[0]; measure q[59] -> c[1]; measure q[41] -> c[2]; measure q[42] -> c[3]; measure q[53] -> c[4];",
+        [],
+        2048
+      ]
+    ],
+    "version": 2,
+    "support_qiskit": false
+  },
+  "program": {
+    "id": "sampler"
+  },
+  "created": "2025-04-18T02:44:32.870Z",
+  "ended": "2025-04-18T14:24:08.039Z",
+  "runtime": "",
+  "cost": 600,
+  "tags": [
+    "composer-info:composer:true",
+    "composer-info:code-id:28a2f76366bb690c36749bcf3bc7a15f70f0f2695ff71bd9919d8c0cf28f6f9b",
+    "composer-info:code-version-id:6801bc4d62f03de3f80a56a2"
+  ],
+  "session_id": null,
+  "usage": {
+    "seconds": 0
+  },
+  "private": false,
+  "user_id": "67df1f8b4aebe577b9fdf151"
+}

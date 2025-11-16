@@ -1,0 +1,40 @@
+{
+  "id": "czy0hnpd8drg008htt80",
+  "hub": "ibm-q",
+  "group": "open",
+  "project": "main",
+  "backend": "ibm_brisbane",
+  "state": {
+    "status": "Completed"
+  },
+  "status": "Completed",
+  "params": {
+    "pubs": [
+      [
+        "OPENQASM 2.0; include \"qelib1.inc\"; gate rzx(param0) q0,q1 { h q1; cx q0,q1; rz(param0) q1; cx q0,q1; h q1; } gate ecr q0,q1 { rzx(pi/4) q0,q1; x q0; rzx(-pi/4) q0,q1; } qreg q[127]; creg c[5]; rz(-pi) q[0]; sx q[0]; rz(-pi/2) q[1]; sx q[1]; rz(-pi) q[1]; ecr q[1],q[0]; rz(-pi/2) q[0]; sx q[0]; rz(pi/2) q[0]; rz(-pi) q[1]; sx q[1]; rz(-pi/2) q[2]; sx q[2]; rz(-pi) q[2]; ecr q[2],q[1]; rz(-pi/2) q[1]; sx q[1]; rz(pi/2) q[1]; rz(-pi) q[2]; rz(-pi/2) q[3]; sx q[3]; rz(2*pi/3) q[3]; ecr q[3],q[2]; rz(-pi/2) q[2]; sx q[2]; rz(pi/2) q[2]; rz(-pi) q[3]; sx q[3]; x q[4]; rz(pi/2) q[4]; ecr q[4],q[3]; rz(-pi/2) q[3]; sx q[3]; rz(pi/2) q[3]; measure q[0] -> c[0]; measure q[1] -> c[1]; measure q[2] -> c[2]; measure q[3] -> c[3]; measure q[4] -> c[4];",
+        [],
+        2048
+      ]
+    ],
+    "version": 2,
+    "support_qiskit": false
+  },
+  "program": {
+    "id": "sampler"
+  },
+  "created": "2025-04-13T18:56:23.197Z",
+  "ended": "2025-04-13T18:56:28.848Z",
+  "runtime": "",
+  "cost": 600,
+  "tags": [
+    "composer-info:composer:true",
+    "composer-info:code-id:34500f4e46a350e07cc95fd08aebb7fbb96a69c0cb186d26229142beadecd693",
+    "composer-info:code-version-id:67fc08c15056b906dfe3e845"
+  ],
+  "session_id": null,
+  "usage": {
+    "seconds": 0
+  },
+  "private": false,
+  "user_id": "67df1f8b4aebe577b9fdf151"
+}

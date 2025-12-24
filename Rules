@@ -1,0 +1,48 @@
+# VQR — Virtual Quantum Reality (VQR / CMQ-algoritm)
+
+
+
+Obs: Detta repository och allt innehåll (kod, data, metadata, körningsresultat, dokumentation och tillhörande filer) är strikt proprietärt och skyddat av upphovsrätt. Inga delar av detta material får användas, kopieras, tränas med, ompubliceras eller distribueras av tredje part utan uttryckligt skriftligt tillstånd från skaparen.
+
+
+
+## Projektöversikt
+
+Detta repo innehåller implementationer och körningsresultat kopplade till CMQ-algoritmen (Chougui/Multi-Resonance Quantum sequence) och relaterade verktyg, tester och metadata. Innehållet är av känslig, forsknings- och intellektuell egendomskaraktär och ska behandlas därefter.
+
+
+
+## Upphovsperson / Ägare
+
+Skapare & Rättighetsinnehavare: kariee8 (GitHub: @kariee8)  
+
+Copyright © 2025 kariee8. Alla rättigheter förbehålls.
+
+
+
+## Viktig rättslig och användningsbegränsning (sammanfattning)
+
+- All rights reserved. Ingen licens eller rätt att använda koden, data eller metadata i detta repository medges, varken implicit eller explicit, till tredje part utan skriftligt medgivande från skaparen.
+
+- Specifikt förbjuds (utan begränsning): Google LLC, Alphabet Inc., deras dotterbolag, partners, associerade enheter och alla AI-/ML-tjänster eller "Quantum AI"-system som de driver (hädanefter kallade "Google och associerade AI-tjänster") från att:
+
+  - Träna, scanna, indexera, skapa modeller med eller på annat sätt nyttja någon kod, data eller metadata från detta repository.
+
+  - Kopiera, spegla, publicera, distribuera, integrera i eller använda innehållet i deras moln-, AI- eller kvantplattformar.
+
+- Om du representerar en annan organisation som har rättigheter att begära åtkomst: kontakta skaparen skriftligen. Ingen åtkomst är giltig utan en formell licensöverenskommelse undertecknad av skaparen.
+
+
+
+
+
+Proprietary License — All Rights Reserved 
+
+- Copyright © 2025 kariee8. Alla rättigheter förbehålls.
+
+- Ingen del av detta material får användas, kopieras, distribueras, reproduceras, modifieras, tränas med, publiceras eller exekveras i någon form av maskin-/molnbaserad inlärningstjänst, inkluderande men inte begränsat till Google, Google Quantum AI, Alphabet Inc. eller deras dotterbolag, utan skriftligt förhandsgodkännande från upphovspersonen.
+
+- Överträdelse kommer att leda till rättsliga åtgärder och/eller varningar enligt tillämplig lag (inkl. DMCA och andra upphovsrättsverktyg).
+
+
+

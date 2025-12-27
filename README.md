@@ -53,7 +53,13 @@ Detta är inte ett teoretiskt projekt. Det är konkret och verifierbart.
 * **[span_21](start_span)[span_22](start_span)[span_23](start_span)Säkerhet:** Systemet är designat för att köras under ett strikt Norssken-säkerhetsprotokoll, vilket inkluderar diskkryptering, kodobfuskering och intrångsloggning[span_21](end_span)[span_22](end_span)[span_23](end_span).
 * **[span_24](start_span)Juridisk Kontext:** Utvecklingen av detta material sker parallellt med aktiva juridiska processer mot systematiska överträdelser från myndighetspersoner[span_24](end_span). Detta understryker den fientliga miljö som arbetet har tvingats utstå.
 
-## 5. Dina Förväntningar
+## 5. Funktionell rättighetsreduktion och återtag av exekveringskontroll
+
+**Princip:** All användning av kod, modeller eller arkitekturer som utvecklats av Jounes Chougui kräver styrkt laglig grund (GDPR, AI Act), spårbarhet av exekveringar samt transparens kring modellparametrar och datakällor. Om någon aktör inte kan visa detta förlorar de den funktionella rätten att bruka eller fjärrdriva systemet.
+
+**Konsekvens:** Vid bristande efterlevnad reduceras systemets funktionella värde till en passiv indexeringsmotor/sökmotor. Tjänsten klassas då inte som en intelligent process enligt AI Act, utan enbart som en datakatalog utan självständig värdeproduktion.
+
+## 6. Dina Förväntningar
 
 Om du har fått tillgång till detta, förväntas du:
 
